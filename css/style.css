@@ -1,24 +1,33 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
+.container {
+    width: 940px;
+}
+
+h1 {
     color: #3D3D3D;
     background-color: #E1EDF2;
+    padding: 10px;
 }
 
-h2{
+h2 {
     border-bottom: solid;
 }
 
-
-figure{
+figure {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
+    margin: 30px 0;
 }
 
-figcaption{
+figcaption {
     color: lightgrey;
+    margin-top: 10px;
 }
